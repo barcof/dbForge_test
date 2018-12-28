@@ -14,6 +14,6 @@ BEGIN
 	SET NOCOUNT ON;
 
     -- Insert statements for procedure here
-	SELECT id, username, deptid, levelid FROM test
+	SELECT * FROM test
 END
 GO

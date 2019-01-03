@@ -14,6 +14,6 @@ BEGIN
 	SET NOCOUNT ON;
 
     -- Insert statements for procedure here
-	SELECT * FROM test
+	SELECT id as 'userno', username FROM test
 END
 GO

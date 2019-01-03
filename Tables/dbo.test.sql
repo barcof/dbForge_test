@@ -5,3 +5,9 @@
 )
 ON [PRIMARY]
 GO
+
+CREATE INDEX [testng_index]
+  ON [dbo].[test] ([username])
+  INCLUDE ([dept])
+  ON [PRIMARY]
+GO
